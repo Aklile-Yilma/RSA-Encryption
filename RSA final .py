@@ -102,19 +102,7 @@ while  True:
 		encrypted_message=encrypt(message,public_key)
 		print("here is your encrypted message: ", encrypted_message)
 	else:
-		i=0
-		while i<3 and command.lower()=='d':
-			secret_key=eval(input("please enter secret key: "))
-			if secret_key==private_key:
-				to_decrypt=input("enter message separated by commas: ")
-				print("Decrypting your message... ")
-				decrypted_message=decrypt(to_decrypt,private_key)
-				print("Decrypted message ", decrypted_message)
-				break
-			elif i==4:
-				print("you have run out of tries...Good Bye")
-			else:
-				print("wrong secret key!!! Try again")
+		
    
 
 
