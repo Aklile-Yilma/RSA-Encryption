@@ -115,7 +115,7 @@ while  True:
 			elif i==4:
 				print("you have run out of tries...Good Bye")
 			else:
-				print("wrong secret key!!! Try again")
+				print("wrong secret key!!!")
 
 
 
